@@ -1,7 +1,7 @@
-﻿**Plan**
+﻿## Plan
 front <---> back <---> (PostgreSQL)
 
-**technologies:**
+### technologies:
 - boot 
 - web
 - security
@@ -11,7 +11,7 @@ front <---> back <---> (PostgreSQL)
 -- flyway
 -- lombbok
 
-**features:** 
+### features: 
 - Аутентификация и регистрация пользователей
 - Защита веб-приложения
 - Просмотр товаров
@@ -24,14 +24,14 @@ front <---> back <---> (PostgreSQL)
 - Оповщения по e-mail
 - Навигация
 
-Entities:
-1.Product
+### Entities:  
+#### 1.Product
 - id
 - title
 - price
 - categories
 - sales (optional)  
-2.User
+#### 2.User
 - id
 - username
 - email
@@ -39,12 +39,12 @@ Entities:
 - role
 - address
 - archive  
-3.Role
+#### 3.Role
 - USER
 - GUEST
 - ADMIN
 - MANAGER  
-4.Order
+#### 4.Order
 - id
 - created date
 - last change date
@@ -53,7 +53,7 @@ Entities:
 - user
 - status (NEW, CANCEL, PAID, CLOSED, RETURNED)
 - details ( product. price, amount, comment)  
-5.Category
+#### 5.Category
 - id
 - tittle  
 6.Bucket
