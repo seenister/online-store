@@ -30,7 +30,7 @@ Entities:
 - title
 - price
 - categories
-- sales (optional)
+- sales (optional)  
 2.User
 - id
 - username
@@ -38,12 +38,12 @@ Entities:
 - password
 - role
 - address
-- archive
+- archive  
 3.Role
 - USER
 - GUEST
 - ADMIN
-- MANAGER
+- MANAGER  
 4.Order
 - id
 - created date
@@ -52,10 +52,10 @@ Entities:
 - addressOrder
 - user
 - status (NEW, CANCEL, PAID, CLOSED, RETURNED)
-- details ( product. price, amount, comment)
+- details ( product. price, amount, comment)  
 5.Category
 - id
-- tittle
+- tittle  
 6.Bucket
 - id
 - user
